@@ -37,7 +37,6 @@ fact: (topof disk2 peg2)
 fact: (topof disk1 peg3)
 
 
-
 rule: ((largerthan ?x ?y) (largerthan ?y ?z)) -> (largerthan ?x ?z)
 rule: ((topof ?x ?A) (largerthan ?y ?x) (topof ?y ?B)) -> (movable ?x ?A ?B)
 rule: ((topof ?x ?y) (empty ?z)) -> (movable ?x ?y ?z)
